@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header style="padding: 1px;">
+        <div class="container">
+        <div class="navigation" style="background-color:white;padding-top: 24px; margin-bottom: 25px;">
+            <h1 class="nav_h1" style="padding-top: 24px;"> <span style="color: rgb(51, 93, 209);">Web</span>Studio</h1>
+            <nav>
+                <ul class="ul_navigation" style="padding-top: 32px;">
+                    <li class="header_nav2">Студіо</li>
+                    <li class="header_nav2">Портфоліо</li>
+                    <li class="header_nav2" style="margin-right: 200px;">Контакт</li>
+                    <li class="info_studio" data-modal-open>
+                      <svg class="svg_photo_mobile" width="20" height="32">
+                         <use href="/symbol-defs.svg#icon-smartphone-1"></use>
+                            </svg>
+                             info@devstudio.com
+                            </li>
+                   <li class="phone_number">
+                    <svg  class="svg_photo_mobile">
+                        <use href="/symbol-defs.svg#icon-envelope-hover-2-1"></use>
+                    </svg>
+                    +38 096 111 11 11</li>
+        </nav>
+        </div>
+        </div>
+
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="close_button_modal" data-modal-close>X</button>
+        <ul class="ul_modal_container flex_modal" style="margin-top: 20px;">
+            <li class="ul_modal_1">Заявление на про игрока бимочки</li>
+            <li>
+                <p class="name_modal">Ім'я</p>
+            </li>
+            <li>
+                <form>
+                    <label for="name"></label>
+                    <input type="text" id="username">
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    
+    </header>
+    <main>
+        <section id="mainsection" style=" padding-top: 200px; padding-bottom: 280px;">
+            <div class="container">
+                <h1 class="main_section_h1" style="color: aliceblue;padding-left: 500px;">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСА</h1>
+                <div class="button_wrapper">
+                <button class="main_section_button" style="background-color: rgba(33, 150, 243, 1);height: 50px;width: 216px;">Замовити послугу</button>    
+                </div>  
+            <div>
+        </section>
+        <section style="background-color: rgb(255, 255, 255); padding-top: 90px; padding-bottom: 94px;">
+            <div class="container">
+                <ul class="main_section_ul">
+            <li> <h3 class="main_li_details">УВАГА ДО ДЕТАЛЕЙ</h3><p>Ідейні міркування і навіть початок повсякденноі робота з формування позицій</p></li>
+            <li><h1 class="main_li_punctual">ПУНКТУАЛЬНІСТЬ</h1><p>Завдання організацій особливо рамкиі місце навчання кадрів тягне у себе</p></li>
+            <li><h1 class="main_li-planning">ПЛАНУВАННЯ</h1><p>Так само консультація з широким активом значною мірою зумовлює</p></li>
+            <li><h1 class="main_li-modern">СУЧАСНІ ТЕХНОЛОГІ</h1><p>Значимість цих проблем настільки очевидна що реалізація планових завдань</p></li>
+            </ul>
+            <div>
+        </section>
+        <section style="background-color: white; padding-top: 94px; padding-bottom: 94px;">
+            <div class="container">
+            <h1 class="h1_photos">Чим ми займаємося</h1>
+            <ul class="photos_work">
+                    <li class="li_working"> <img src="img.png" alt="coding">
+                    <p class="section_class_text">Декстопні додатки</p></li>
+                    <li class="li_working"> <img src="box2.jpg" alt="marketing">
+                      <p class="section_class_text">Мобильні додатки</p></li></li>
+                    <li class="li_working"> <img src="box3.jpg" alt="design">
+                      <p class="section_class_text">Дизайнерські додатки</p></li></li>
+            </ul>
+            </div>
+        </section>
+        <section style="background-color:rgba(245, 244, 250, 1);padding-top: 188px; padding-bottom: 94px;"> 
+            <div class=container>
+            <h1 class="section2_h1">Наша команда</h1>
+            <ul class="ourteam">
+                <li class="team_li1">
+                             <img src="img(1).jpg" width="250" alt="team">
+                           <p style="padding-top: 30px; padding-bottom: 10px;">Ігор Дем'яненко</p>
+                           <p>Product Designer</p>
+                          <div class="team_li1_icons">
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-instagram"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-twitter"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-facebook"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-linkedin"></use></svg>
+        </div>
+        </li>
+                <li class="team_li2">
+                            <img src="img(2).jpg" width=250 alt="team">
+                             <p style="padding-top: 30px; padding-bottom: 10px;">Ольга Репіна</p>
+                            <p class="team2">Frontend Developer</p>
+                                          <div class="team_li1_icons">
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-instagram"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-twitter"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-facebook"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-linkedin"></use></svg>
+        </div>
+                </li>
+                <li class="team_li3">
+                               <img src="img(3).jpg" width=250 alt="team">
+                             <p style="padding-top: 30px; padding-bottom: 10px;">Микола Тарасов</p>
+                             <p>Marketing</p>
+                            <div class="team_li1_icons">
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-instagram"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-twitter"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-facebook"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-linkedin"></use></svg>
+               </div>
+                </li>
+                <li class="team_li4">
+                         <img src="img(4).jpg" width=250 alt="team">
+                        <p style="padding-top: 30px; padding-bottom: 10px;">Михайло Єрмаков</p>
+                         <p >UI Designer</p>    
+                <div class="team_li1_icons">
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-instagram"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-twitter"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-facebook"></use></svg>
+                         <svg class="svg_icons"><use href="./symbol-defs.svg#icon-linkedin"></use></svg>
+        </div>
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <section style="height: 500px;" class="section_clients">
+                <div class="container">
+                    <ul class="ul_clients1">
+                        <li>
+                             <h1 class="h1_clients">
+                                Постійні клієнти
+                    </h1>
+                        </li>
+                    </ul>
+
+                    <ul class="ul_clients_photo">
+                        <li class="li_clients1">
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client5"></use>
+                            </svg>
+                        </li>
+                        <li class="li_clients2">
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client1"></use>
+                            </svg>
+                        </li>
+                              <li>
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client4"></use>
+                            </svg>
+                        </li>
+                              <li>
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client6"></use>
+                            </svg>
+                        </li>
+                              <li>
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client2"></use>
+                            </svg>
+                        </li>
+                              <li>
+                            <svg>
+                                <use href="./symbol-defs.svg#icon-Client3"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+
+        </section>
+    </main>
+   <footer class="footer" style="background-color: rgb(57, 58, 71); padding-top: 60px; padding-bottom: 60px;">
+    <div class="container footer-wrapper">
+        
+        <div class="footer-left">
+            <div class="footer_header">
+                <h1 class="footer_h1">
+                    <span style="color: rgb(51, 93, 209);">Web</span>Studio
+                </h1>
+            </div>
+            <ul class="footer_ul">
+                <li style="color: rgba(255, 255, 255, 1); padding-bottom: 9px;">м. Київ, пр-т Лесі Українки, 26</li>
+                <li style="padding-bottom: 9px;">info@devstudio.com</li>
+                <li>+38 096 111 11 11</li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <p class="join_footer">Приєднуйтесь</p>
+            <ul class="footer_logos">
+                <li>
+                    <svg class="svg_logo_footer">
+                        <use href="./symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="svg_logo_footer">
+                        <use href="./symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="svg_logo_footer">
+                        <use href="./symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="svg_logo_footer">
+                        <use href="./symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
