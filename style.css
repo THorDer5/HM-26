@@ -456,7 +456,11 @@ color: #757575;
 
 }
 
-
+.flex_modal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 .close_button_modal{
@@ -483,3 +487,44 @@ color: #757575;
     border-color: rgba(33, 150, 243, 1); 
     cursor: pointer;
 }
+
+.modal_li{
+    margin-top: 10px;
+}
+
+
+#comment{
+    width: 450px;
+    height: 85px;
+    border-radius: 7px;
+    
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+}
+
+.button_modal_li{
+    width: 200px;
+    height: 50px;
+    background-color:rgba(24, 140, 232, 1);
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 5px solid rgba(24, 140, 232, 1);
+    margin-left: 130px;
+    margin-top: 5px;
+
+}
+
+
+.svg_modal{
+    width: 30px;
+    height: 30px;
+    fill: black;
+}
+
+

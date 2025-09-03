@@ -40,9 +40,9 @@
 
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button class="close_button_modal" data-modal-close>X</button>
-        <ul class="ul_modal_container flex_modal" style="margin-top: 20px;">
-            <li class="ul_modal_1">Заявление на про игрока бимочки</li>
+        <button class="close_button_modal" data-modal-close style="margin-left: 430px;">X</button>
+        <ul class="ul_modal_container flex_modal">
+            <li class="ul_modal_1">Залиште свої дані, ми вам передзвонимо</li>
             <li>
                 <p class="name_modal">Ім'я</p>
             </li>
@@ -51,7 +51,34 @@
                     <label for="name"></label>
                     <input type="text" id="username">
                 </form>
+                <svg class="svg_modal">
+                    <use href="/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                </svg>
             </li>
+
+            <li class="modal_li">
+                <p class="name_modal">Телефон</p>
+                <form>
+                    <label for="phone_number"></label>
+                    <input type="text" id="username">
+                </form>
+            </li>
+
+            <li style="margin-top: 10px;">
+                <p class="name_modal">Пошта</p>
+                <form>
+                    <label for="email"></label>
+                    <input type="email" id="username">
+                </form>
+            </li>
+            <li style="margin-top: 10px;"><p class="name_modal">Коментар</p>
+                <textarea name="comment" id="comment"></textarea>
+
+            </li>
+            <li style="margin-top: 5px;"><input type="checkbox" id="checkbox" name="checkbox">
+            Погоджуюся з розсилкою та приймаю <span style="color: rgba(24, 140, 232, 1);" >Умови договору</span></li>
+
+            <li><button class="button_modal_li">Відправити</button></li>
         </ul>
     </div>
 </div>
