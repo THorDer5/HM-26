@@ -525,6 +525,101 @@ color: #757575;
     width: 30px;
     height: 30px;
     fill: black;
+    position:absolute;
+    bottom: 62%;
 }
 
 
+.svg_modal2{
+    top: 42%;
+     width: 30px;
+    height: 30px;
+    fill: black;
+    position:absolute;
+
+}
+
+
+.svg_modal3{
+      top: 48%;
+     width: 30px;
+    height: 30px;
+    fill: black;
+    position:absolute;
+}
+
+
+.subscribe_footer{
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+
+
+}
+
+#email_footer{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(47, 48, 58, 1);
+ 
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+padding-left: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+
+}
+
+
+
+.flex_footer_subscribe{
+    display: flex;
+}
+
+.button_subscribe{
+
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 220px;
+height: 60px;
+color: white;
+
+margin-left: 40px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+
+
+}
+
+.svg_plane_footer{
+    width: 10px;
+    height: 10px;
+}
