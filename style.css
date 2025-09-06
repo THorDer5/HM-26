@@ -604,7 +604,6 @@ border-radius: 4px;
 width: 220px;
 height: 60px;
 color: white;
-
 margin-left: 40px;
 font-family: 'Roboto';
 font-style: normal;
@@ -614,12 +613,20 @@ line-height: 30px;
 letter-spacing: 0.06em;
 
 color: #FFFFFF;
+position: relative;
 
 
 
 }
 
+
+
+
+#checkbox{
+    border-radius: 20px;
+}
+
 .svg_plane_footer{
-    width: 10px;
-    height: 10px;
+    width: 24px;
+    height: 24px;
 }
