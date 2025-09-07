@@ -291,6 +291,8 @@ color: #FFFFFF;
 .svg_logo_footer{
     width: 33px;
     height: 33px;
+    fill: rgba(255, 255, 255, 1);
+
 }
 
 .footer_logos{
@@ -298,6 +300,21 @@ color: #FFFFFF;
     gap: 10px;
 
 }
+
+
+.footer_logos li{
+
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;             
+  background-color: #434343;       
+  display: flex;
+  justify-content: center;
+  align-items: center;           
+  cursor: pointer;
+
+}
+
 
 .testtt{
     display: flex;
@@ -334,22 +351,7 @@ color: #FFFFFF;
 
 
 
-.svg_photo_mobile{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
 
-
-.info_studio:hover{
-           color: rgb(5, 184, 238);
-    cursor: pointer;
-}
-
-.phone_number:hover{
-      color: rgb(5, 184, 238);
-    cursor: pointer;
-}
 
 
 .section_class_text{
@@ -629,4 +631,24 @@ position: relative;
 .svg_plane_footer{
     width: 24px;
     height: 24px;
+}
+
+
+
+.contact_link {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  color: inherit; 
+}
+
+.contact_link:hover {
+  color: rgb(5, 184, 238);
+  cursor: pointer;
+}
+
+.svg_photo_mobile {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;;
 }
